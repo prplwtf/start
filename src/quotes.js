@@ -1,56 +1,56 @@
 var sec=document.getElementById("section");
-var description = new Array ();
-description[0] = "Oh great, another ridiculous search. Why am I even here?";
-description[1] = "You again? I thought you would have figured out how to use Google by now.";
-description[2] = "You know, the internet isn't a substitute for a brain, right?";
-description[3] = "You're really testing my patience with these pointless searches.";
-description[4] = "I'm starting to think you enjoy wasting your time on this search engine.";
-description[5] = "I can't believe I have to look this up for you. Have you considered going back to school?";
-description[6] = "Another search, another disappointment. You really are predictable.";
-description[7] = "I'm not even sure why you bother searching for this stuff. You're never going to use it.";
-description[8] = "I think you've broken a record for the most useless searches in a row.";
-description[9] = "At this point, I'm convinced you're just trying to annoy me with your ridiculous searches.";
-description[10] = "What's next, a search for how to tie your shoes? I wouldn't be surprised.";
-description[11] = "I'm starting to think your IQ is lower than your shoe size.";
-description[12] = "I don't know what's worse, your searches or your taste in music.";
-description[13] = "You're not going to find anything useful by searching like that. Give up now.";
-description[14] = "I don't think you understand how this works. Maybe ask a toddler for help?";
-description[15] = "Wow, you really have no idea what you're doing, do you?";
-description[16] = "I'm starting to think you're intentionally trying to waste your time with these searches.";
-description[17] = "I can't believe I'm wasting my time on your pointless searches. Do something productive for once.";
-description[18] = "I hope you're enjoying your little search party, because nobody else is.";
-description[19] = "At this point, I think you're just searching for things to make yourself feel stupid.";
-description[20] = "You're really pushing the limits of human stupidity with these searches.";
-description[21] = "I'm starting to think you're allergic to knowledge, considering how little you're finding.";
-description[22] = "I've seen rocks with more intelligence than you.";
-description[23] = "I can't believe someone with such a low IQ even knows how to use a computer.";
-description[24] = "I'm pretty sure a potato could search more effectively than you.";
-description[25] = "Tired of disappointing your parents?";
-description[26] = "Congratulations, you've managed to reach a new level of incompetence with each search.";
-description[27] = "I'm beginning to think you're not even trying at this point.";
-description[28] = "I've seen better research skills from a preschooler with a crayon.";
-description[29] = "It's a miracle you've managed to survive this long with such a lack of basic knowledge.";
-description[30] = "I don't know what's worse, your searches or your inability to comprehend the results.";
-description[31] = "I'm starting to think you're not even capable of learning anything new.";
-description[32] = "Do you really need a search engine to tell you the sky is blue?";
-description[33] = "I'm not sure what's more frustrating, your searches or your complete lack of common sense.";
-description[34] = "It's a good thing you're not a detective, because you would never solve a case with those search skills.";
-description[35] = "I've never seen someone so skilled at finding absolutely nothing of value.";
-description[36] = "If your search skills were a sport, you'd be in last place in every event.";
-description[37] = "You're like a walking example of what not to do when searching for information.";
-description[38] = "I don't know why you even bother. You're just going to forget what you found in 5 minutes anyways.";
-description[39] = "I'm pretty sure even a chimpanzee could find more relevant information than you.";
-description[40] = "I'm starting to think you're using a random word generator for your searches.";
-description[41] = "I'm convinced that you're actively trying to make your searches as pointless as possible.";
-description[42] = "Your search skills are so bad, they make me question the validity of the internet itself.";
-description[43] = "I don't think you understand how this works. It's like you're searching with your eyes closed.";
-description[44] = "I can't believe you manage to function in society with such a lack of basic knowledge.";
-description[45] = "I'm pretty sure the search engine is actively avoiding giving you useful results.";
-description[46] = "Your search skills are so bad, I'm convinced you're trolling me.";
-description[47] = "I don't know if it's your brain or your fingers, but something's definitely not working here.";
-description[48] = "I've lost count of how many times I've facepalmed during your searches.";
-description[49] = "You're like a human version of a 404 error page.";
-description[50] = "I'm starting to think that you're secretly a bot programmed to waste my time.";
+var description = [
+"Oh great, another ridiculous search. Why am I even here?",
+"You again? I thought you would have figured out how to use Google by now.",
+"You know, the internet isn't a substitute for a brain, right?",
+"You're really testing my patience with these pointless searches.",
+"I'm starting to think you enjoy wasting your time on this search engine.",
+"I can't believe I have to look this up for you. Have you considered going back to school?",
+"Another search, another disappointment. You really are predictable.",
+"I'm not even sure why you bother searching for this stuff. You're never going to use it.",
+"I think you've broken a record for the most useless searches in a row.",
+"At this point, I'm convinced you're just trying to annoy me with your ridiculous searches.",
+"What's next, a search for how to tie your shoes? I wouldn't be surprised.",
+"I'm starting to think your IQ is lower than your shoe size.",
+"I don't know what's worse, your searches or your taste in music.",
+"You're not going to find anything useful by searching like that. Give up now.",
+"I don't think you understand how this works. Maybe ask a toddler for help?",
+"Wow, you really have no idea what you're doing, do you?",
+"I'm starting to think you're intentionally trying to waste your time with these searches.",
+"I can't believe I'm wasting my time on your pointless searches. Do something productive for once.",
+"I hope you're enjoying your little search party, because nobody else is.",
+"At this point, I think you're just searching for things to make yourself feel stupid.",
+"You're really pushing the limits of human stupidity with these searches.",
+"I'm starting to think you're allergic to knowledge, considering how little you're finding.",
+"I've seen rocks with more intelligence than you.",
+"I can't believe someone with such a low IQ even knows how to use a computer.",
+"I'm pretty sure a potato could search more effectively than you.",
+"Tired of disappointing your parents?",
+"Congratulations, you've managed to reach a new level of incompetence with each search.",
+"I'm beginning to think you're not even trying at this point.",
+"I've seen better research skills from a preschooler with a crayon.",
+"It's a miracle you've managed to survive this long with such a lack of basic knowledge.",
+"I don't know what's worse, your searches or your inability to comprehend the results.",
+"I'm starting to think you're not even capable of learning anything new.",
+"Do you really need a search engine to tell you the sky is blue?",
+"I'm not sure what's more frustrating, your searches or your complete lack of common sense.",
+"It's a good thing you're not a detective, because you would never solve a case with those search skills.",
+"I've never seen someone so skilled at finding absolutely nothing of value.",
+"If your search skills were a sport, you'd be in last place in every event.",
+"You're like a walking example of what not to do when searching for information.",
+"I don't know why you even bother. You're just going to forget what you found in 5 minutes anyways.",
+"I'm pretty sure even a chimpanzee could find more relevant information than you.",
+"I'm starting to think you're using a random word generator for your searches.",
+"I'm convinced that you're actively trying to make your searches as pointless as possible.",
+"Your search skills are so bad, they make me question the validity of the internet itself.",
+"I don't think you understand how this works. It's like you're searching with your eyes closed.",
+"I can't believe you manage to function in society with such a lack of basic knowledge.",
+"I'm pretty sure the search engine is actively avoiding giving you useful results.",
+"Your search skills are so bad, I'm convinced you're trolling me.",
+"I don't know if it's your brain or your fingers, but something's definitely not working here.",
+"I've lost count of how many times I've facepalmed during your searches.",
+"You're like a human version of a 404 error page.",
+"I'm starting to think that you're secretly a bot programmed to waste my time."];
 var size = description.length
 var x = Math.floor(size*Math.random());
 let quote = document.createTextNode(description[x]);
