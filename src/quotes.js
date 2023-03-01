@@ -114,7 +114,27 @@ var description = [
 "You're like a human embodiment of Murphy's Law - everything that can go wrong, will go wrong.",
 "Your personality is like a trainwreck - everyone can see it coming, but nobody can look away.",
 "You're the kind of person who would struggle to pour water out of a boot even if the instructions were printed on the sole.",
-"You're the kind of person who would struggle to navigate a one-way street in a golf cart."];
+"You're the kind of person who would struggle to navigate a one-way street in a golf cart.",
+"You're the kind of person who could trip over a cordless phone.",
+"If stupidity was a superpower, you would be the world's strongest superhero.",
+"You have a face like a bulldog chewing a wasp.",
+"You're so dense, light bends around you.",
+"If your brain was dynamite, you wouldn't have enough to blow your nose.",
+"Your intelligence is like a light switch - it's either on or off, and it's usually off.",
+"Your sense of humor is like a cold, wet blanket - it just dampens the mood.",
+"You have the charm of a landfill and the wit of a rock.",
+"Your brain is like a black hole - it sucks in knowledge and never lets it escape.",
+"You have the creativity of a cardboard box and the personality of a doorknob.",
+"You're like a human equivalent of a pop-up ad - annoying, irrelevant, and nobody wants you around.",
+"You're the kind of person who could start an argument in an empty room.",
+"Your fashion sense is so bad, you make socks and sandals seem like a good idea.",
+"You're the kind of person who would struggle to find their way out of a paper bag.",
+"Your brain is so empty, if you were a book, you'd only have one page - and it would be blank.",
+"Your mind is as empty as a vacuum - nothing but a void where intelligence should be.",
+"I wouldn't trust you to walk my dog, let alone complete a simple task.",
+"Your idea of multitasking is checking your phone while struggling to form a coherent sentence.",
+"Your intellect is like a barren desert - vast and empty, with no signs of life or creativity.",
+"Your thought process is slower than a snail on a molasses-covered treadmill."];
 var size = description.length
 var x = Math.floor(size*Math.random());
 let quote = document.createTextNode(description[x]);
